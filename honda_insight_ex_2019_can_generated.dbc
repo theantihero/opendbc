@@ -374,6 +374,14 @@ VAL_ 399 STEER_STATUS 6 "tmp_fault" 5 "fault_1" 4 "no_torque_alert_2" 3 "low_spe
 CM_ "honda_insight_ex_2019_can.dbc starts here"
 
 
+BO_ 229 STEERING_CONTROL_X2: 8 XXX
+ SG_ BYTE_0 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ BYTE_1 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ BYTE_2 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ BYTE_3 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
 BO_ 304 GAS_PEDAL_2: 8 PCM
  SG_ ENGINE_TORQUE_ESTIMATE : 7|16@0- (1,0) [-1000|1000] "Nm" EON
  SG_ ENGINE_TORQUE_REQUEST : 23|16@0- (1,0) [-1000|1000] "Nm" EON
